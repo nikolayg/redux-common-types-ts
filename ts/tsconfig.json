@@ -16,10 +16,6 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./deep/deeper/bar.ts",
-        "./deep/foo.ts",
-        "./index.ts",
-        "./typings/node/node.d.ts",
-        "./typings/tsd.d.ts"
+        "./index.ts"
     ]
 }

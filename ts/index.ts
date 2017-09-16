@@ -1,6 +1,12 @@
-// Sample exports from other modules
-export * from "./deep/foo";
-export * from "./deep/deeper/bar";
+export interface Action<Payload> {
+  type: string;
+  payload: Payload;
+}
 
-// Sample export of our own
-export var bas = "123";
+export type APIAction<Payload> = Action<Promise<Payload>>;
+
+export type ActionCreator<Params, Payload> = (params: Params) => Action<Payload>;
+
+export type APIActionCreator<Params, Payload> = (params: Params) => APIAction<Payload>;
+
+export type Reducer<State, Payload> = (state: State, action: Action<Payload>) => State;

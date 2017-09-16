@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-module",
-  "version": "1.0.5",
-  "description": "A sample TypeScript npm module",
+  "name": "redux-common-types-ts",
+  "version": "1.0.1",
+  "description": "Common Flow types for Redux Actions and Reducers Edit",
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basarat/ts-npm-module.git"
+    "url": "git+https://github.com/nikolayg/redux-common-types-ts.git"
   },
   "keywords": [
+    "redux",
     "typescript",
-    "atom"
+    "action",
+    "reducer",
+    "types"
   ],
-  "author": "basaratali@gmail.com",
+  "author": "Nikolay Grozev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basarat/ts-npm-module/issues"
+    "url": "https://github.com/nikolayg/redux-common-types-ts/issues"
   },
-  "homepage": "https://github.com/basarat/ts-npm-module#readme"
+  "homepage": "https://github.com/nikolayg/redux-common-types-ts#readme"
 }
